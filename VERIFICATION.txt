@@ -1,0 +1,15 @@
+HELLAVERSE — INFERNAL OS (GitHub-ready layout)
+
+Local validation to run from repository root:
+- node --check index.js
+- python tests/check_package.py
+
+Packaging-specific adjustments:
+- manifest.json, index.js, and style.css are at the repository root for SillyTavern's Git repository installer.
+- index.js imports the SillyTavern script module using ../../../../script.js, matching the core script.js location at the web root for /scripts/extensions/third-party/<extension>/index.js.
+- preset and lorebook are kept in separate importable folders.
+
+Not verified from this build container:
+- A live push to the user's GitHub account (no GitHub account connection is available in this chat).
+- Runtime behavior inside the user's specific SillyTavern build.
+- An end-to-end Google AI Studio API request.

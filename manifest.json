@@ -1,0 +1,18 @@
+{
+  "display_name": "HELLAVERSE — INFERNAL OS",
+  "loading_order": 10,
+  "requires": [],
+  "optional": [],
+  "dependencies": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "HELLAVERSE Infernal OS — fan project",
+  "version": "1.0.1",
+  "auto_update": true,
+  "generate_interceptor": "hellaverseOS_interceptGeneration",
+  "hooks": {
+    "activate": "hellaverseOS_onActivate",
+    "enable": "hellaverseOS_onEnable",
+    "disable": "hellaverseOS_onDisable"
+  }
+}
